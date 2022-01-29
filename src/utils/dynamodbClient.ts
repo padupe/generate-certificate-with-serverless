@@ -4,6 +4,8 @@ const options = {
     region: "localhost",
     // 8000 é a porta padrão do DynamoDB
     endpoint: "http://localhost:8000",
+    accessKeyId: "x",
+    secretAccessKey: "x"
 }
 
 const isOffline = () => {
