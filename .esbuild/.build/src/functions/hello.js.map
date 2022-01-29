@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../src/functions/hello.ts"],
-  "sourcesContent": ["import { APIGatewayProxyHandler } from \"aws-lambda\"\n\n\nexport const handler: APIGatewayProxyHandler = async (event) => {\n\n    return {\n        statusCode: 201,\n        body: JSON.stringify({\n            message: \"Hello World Ignite Serverless\",\n        }),\n    }\n}"],
-  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAGO,IAAM,UAAkC,OAAO,UAAU;AAE5D,SAAO;AAAA,IACH,YAAY;AAAA,IACZ,MAAM,KAAK,UAAU;AAAA,MACjB,SAAS;AAAA;AAAA;AAAA;",
-  "names": []
-}
