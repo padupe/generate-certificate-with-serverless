@@ -1,4 +1,4 @@
-![img](https://github.com/padupe/generate-certificate-with-serverless/blob/master/Images/certificate.svg)
+![img](https://github.com/padupe/generate-certificate-with-serverless/blob/master/Images/generate_certificate.svg)
 # Generate Certificate
 Aplicação para gerar e validar Certificados
 
