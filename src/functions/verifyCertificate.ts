@@ -24,7 +24,7 @@ export const handler: APIGatewayProxyHandler = async (event) => {
 
     if(userCertificate) {
         return {
-            statusCode: 201,
+            statusCode: 200,
             body: JSON.stringify({
                 message: "Certificado Válido!",
                 name: userCertificate.name,
