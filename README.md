@@ -13,12 +13,13 @@ Aplicação para gerar e validar Certificados
 - [serverless](https://www.serverless.com/ 'serverless'): Framework
 
 ## Comandos Úteis
-`nvm use`: para rodar a versão do Node.js adequada;
-`yarn install`: para instalar as dependências do Projeto;
-`yarn dev`: para rodar localmente
-`yarn dynamodb:install`: para instalar a extensão do DynamoDB localmente
-`yarn dynamodb:start`: para rodar o banco de dados localmente
-`yarn deploy`: para realizar o deploy da aplicação.
+- `nvm use`: para rodar a versão do Node.js adequada;
+- `yarn install`: para instalar as dependências do Projeto;
+- `yarn dev`: para rodar localmente
+- `yarn dynamodb:install`: para instalar a extensão do DynamoDB localmente
+- `yarn dynamodb:start`: para rodar o banco de dados localmente
+- `yarn deploy`: para realizar o deploy da aplicação.
+
 ## Funções
 
 ### generateCertificate
